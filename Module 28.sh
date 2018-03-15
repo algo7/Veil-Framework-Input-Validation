@@ -1,5 +1,5 @@
 #!/bin/bash
-if asd
+
 #Navigate to the Programe Directory
 
 cd Veil
