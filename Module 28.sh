@@ -22,7 +22,7 @@ IP=$(curl ipinfo.io/ip)
         [Yy]* )
 #Ask for Port Info.
 echo "Listening Port?"
-read port 
+read port
 
 #Limit the Input to Integer
 if ! [ "$port" -eq "$port" ] 2>/dev/null;then
@@ -32,7 +32,7 @@ else
 #Limit the Port Range to 0 ~ 65535
 if ! [ "$port" -le 0 ] ; [ "$port" -gt 65535 ];then
 echo "Invalid Port Number!"
-else 
+else
 
 #Ask for FileName
 echo File Name:
@@ -148,7 +148,7 @@ fi
 		echo "Please Enter Yes or No!";;
 esac
 ;;
-#No Internet Connection 
+#No Internet Connection
   5) echo "The web proxy won't let us through";;
   *) echo "The network is down or very slow";;
 
