@@ -148,6 +148,7 @@ fi
 		echo "Please Enter Yes or No!";;
 esac
 ;;
+
 #No Internet Connection
   5) echo "The web proxy won't let us through";;
   *) echo "The network is down or very slow";;
