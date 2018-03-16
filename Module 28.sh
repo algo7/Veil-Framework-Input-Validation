@@ -2,7 +2,10 @@
 
 #Navigate to the Programe Directory
 
-cd Veil
+cd Veil 2>/dev/null 
+if ! [ $? -eq 0 ] ;then
+  echo "Veil Directory Does not exist!"
+else
 
 ##Additional code required to determine internet connectivity
 
@@ -155,3 +158,4 @@ esac
 
 
 esac
+fi
