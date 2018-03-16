@@ -143,8 +143,7 @@ fi
 fi
 ;;
 jj
-QWLKEJLQWKEJKLQW
-ASD
+asdasd
 #[Case 3: Not Selected]
 * )
 		echo "Please Enter Yes or No!";;
