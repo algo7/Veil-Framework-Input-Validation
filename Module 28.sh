@@ -4,6 +4,8 @@
 
 cd Veil 2>/dev/null
 
+#Check for Directory
+
 if ! [ $? -eq 0 ] ;then
   echo "Veil Directory Does not exist!"
 else
