@@ -2,11 +2,8 @@
 
 #Navigate to the Programe Directory
 
-<<<<<<< HEAD
 cd Veil 2>/dev/null
-=======
-cd Veil 2>/dev/null 
->>>>>>> 0d0c02918c1777eb0bcb8b0bd61655fb0bb27d44
+
 if ! [ $? -eq 0 ] ;then
   echo "Veil Directory Does not exist!"
 else
